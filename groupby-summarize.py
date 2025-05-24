@@ -85,11 +85,26 @@ class summarize(Scene):
 
         self.play(
             Transform(species_label, new_label),
-            row_2.animate.shift(UP * (row_1.get_center() - row_2.get_center())),
-            row_3.animate.shift(UP * (row_3.get_center() - row_2.get_center())),
-            row_4.animate.shift(UP * (row_3.get_center() - row_4.get_center())),
-            row_5.animate.shift(UP * (row_3.get_center() - row_5.get_center())),      
+            row_2.animate.shift(UP * (row_1.get_center() - row_2.get_center())).set_opacity(0),
+            row_3.animate.shift(UP * (row_3.get_center() - row_2.get_center())).set_opacity(0),
+            row_4.animate.shift(UP * (row_3.get_center() - row_4.get_center())).set_opacity(0),
+            row_5.animate.shift(UP * (row_3.get_center() - row_5.get_center())).set_opacity(0),
         )
+
+
+        new_row_data = ["Sadfasdfadsfasdfazxcsadfd", 4.5]
+
+# Create Text mobjects from each item
+        new_row_1 = VGroup([Text(str(x), font_size=22, font="Iosevka Term") for x in new_row_data])
+
+# Position it where you want
+        new_row_1.move_to(table.get_rows()[0].get_center())
+
+# Animate it
+        self.play(FadeIn(new_row_1))
+
+
+
 
 class groupby_summarize(Scene):
     def construct(self):
