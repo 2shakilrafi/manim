@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/shakilrafi/manim/media/videos/filter-demo/1080p60/partial_movie_files/filter/3529212410_3001709431_223132457.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/filter-demo/1080p60/partial_movie_files/filter/3040924799_2408024828_2597814402.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/filter-demo/1080p60/partial_movie_files/filter/3040924799_4006851615_134621329.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/filter-demo/1080p60/partial_movie_files/filter/3040924799_1754310298_2418732297.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/filter-demo/1080p60/partial_movie_files/filter/3040924799_99940412_2740926667.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/filter-demo/1080p60/partial_movie_files/filter/3040924799_571385822_1145048880.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/filter-demo/1080p60/partial_movie_files/filter/3040924799_3796729265_1335752372.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/filter-demo/1080p60/partial_movie_files/filter/3040924799_3925440029_4036837323.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/filter-demo/1080p60/partial_movie_files/filter/3040924799_2185191290_2996730595.mp4'

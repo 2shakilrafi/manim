@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/shakilrafi/manim/media/videos/select-demo/1080p60/partial_movie_files/select_basic/3529212410_882210967_223132457.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/select-demo/1080p60/partial_movie_files/select_basic/3040924799_1839128356_1871758456.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/select-demo/1080p60/partial_movie_files/select_basic/3040924799_3183119596_3014930510.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/select-demo/1080p60/partial_movie_files/select_basic/3040924799_1754310298_2778682027.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/select-demo/1080p60/partial_movie_files/select_basic/3040924799_2992149403_2408799679.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/select-demo/1080p60/partial_movie_files/select_basic/3040924799_1754310298_3922594008.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/select-demo/1080p60/partial_movie_files/select_basic/3040924799_958874039_1688949043.mp4'
