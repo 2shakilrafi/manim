@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/1185818338_3454072159_223132457.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_1839128356_2096527569.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_3012768534_1131070664.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_1754310298_1242166186.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_2803081767_2249326101.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_3201849554_1539161523.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_551028065_2652063389.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_3201849554_343787856.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_1169959962_2382418314.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_1013961512_2244409583.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_82957108_1691295895.mp4'
+file 'file:/Users/shakilrafi/manim/media/videos/groupby-summarize/480p15/partial_movie_files/summarize/624642324_860430000_4278082925.mp4'
