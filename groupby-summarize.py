@@ -9,6 +9,7 @@ class summarize(Scene):
             [4.7, 3.2, 1.3, 0.2, "versicolor"],
             [4.9, 3.0, 1.4, 0.1, "setosa"],
             [4.6, 3.1, 1.5, 0.4, "virginica"],
+            [4.5,3.0,1.5,0.5, "virginica"]
         ]
 
         table = Table(
@@ -50,6 +51,7 @@ class summarize(Scene):
                 DOWN * (table.get_rows()[2].get_center() - table.get_rows()[4].get_center())
             )
         )
+        self.wait(1.0)
 
         column_1 = table.get_columns()[0]
         column_2 = table.get_columns()[1]
@@ -62,6 +64,7 @@ class summarize(Scene):
         row_3 = table.get_rows()[3]
         row_4 = table.get_rows()[4]
         row_5 = table.get_rows()[5]
+        row_6 = table.get_rows()[6]
 
         self.play(
             column_1.animate.shift(DOWN * 20),
@@ -72,36 +75,44 @@ class summarize(Scene):
         self.play(
             column_5.animate.shift(
                 LEFT * (
-                    column_5.get_width() + ORIGIN + (column_5.get_center() - ORIGIN - 0.5)
+                    6
                 )
             ),
             column_4.animate.shift(
-                LEFT * 1
-                )
+                LEFT * 1.1
+            ),
+            run_time = 1.0
         )
 
         species_label = table.get_columns()[3][0]
         new_label = MarkupText("<b>mean(Petal.Width)</b>", font_size=26, font="Iosevka Term").move_to(species_label).scale(0.75)
 
+        data_summarize = [
+            ["setosa", 1.5],
+            ["versicolor", 2.6],
+            ["virginica", 1.1],
+        ]
+
+        table_summarize = Table(
+            data_summarize,
+            element_to_mobject=lambda x: Text(str(x), font_size=22, font = "Iosevka Term")
+        ).scale(0.75).move_to(ORIGIN + UP * 0.5)
+
         self.play(
             Transform(species_label, new_label),
+            row_1.animate.shift(UP * (row_1.get_center() - row_2.get_center())).set_opacity(0),
             row_2.animate.shift(UP * (row_1.get_center() - row_2.get_center())).set_opacity(0),
             row_3.animate.shift(UP * (row_3.get_center() - row_2.get_center())).set_opacity(0),
             row_4.animate.shift(UP * (row_3.get_center() - row_4.get_center())).set_opacity(0),
             row_5.animate.shift(UP * (row_3.get_center() - row_5.get_center())).set_opacity(0),
+            row_6.animate.shift(UP * (row_3.get_center() - row_6.get_center())).set_opacity(0),
+            FadeIn(table_summarize.get_columns()[0]),
+            FadeIn(table_summarize.get_columns()[1]),
+            run_time = 1.5
         )
 
 
-        new_row_data = ["Sadfasdfadsfasdfazxcsadfd", 4.5]
-
-# Create Text mobjects from each item
-        new_row_1 = VGroup([Text(str(x), font_size=22, font="Iosevka Term") for x in new_row_data])
-
-# Position it where you want
-        new_row_1.move_to(table.get_rows()[0].get_center())
-
-# Animate it
-        self.play(FadeIn(new_row_1))
+        
 
 
 
