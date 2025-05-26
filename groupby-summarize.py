@@ -84,6 +84,8 @@ class summarize(Scene):
             run_time = 1.0
         )
 
+        row_box_1 = SurroundingRectangle(table.get_rows()[4], color=YELLOW, buff=0.4)
+
         species_label = table.get_columns()[3][0]
         new_label = MarkupText("<b>mean(Petal.Width)</b>", font_size=26, font="Iosevka Term").move_to(species_label).scale(0.75)
 
