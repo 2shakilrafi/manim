@@ -42,6 +42,7 @@ class summarize(Scene):
         )
 
         self.wait(0.5)
+        underline_1 = Line(start=code_text.get_left() + RIGHT * 1.6, end=code_text.get_left() + RIGHT * 4.9, color=RED).shift(DOWN * 0.2)
 
         self.play(
             table.get_rows()[4].animate.shift(
@@ -49,7 +50,8 @@ class summarize(Scene):
             ),
             table.get_rows()[2].animate.shift(
                 DOWN * (table.get_rows()[2].get_center() - table.get_rows()[4].get_center())
-            )
+            ),
+            Create(underline_1)
         )
         self.wait(1.0)
 
@@ -65,6 +67,9 @@ class summarize(Scene):
         row_4 = table.get_rows()[4]
         row_5 = table.get_rows()[5]
         row_6 = table.get_rows()[6]
+
+        
+        underline_2 = Line(start=code_text.get_left() + RIGHT * 5.8, end=code_text.get_left() + RIGHT * 11.3, color=RED).shift(DOWN * 0.2)
 
         self.play(
             column_1.animate.shift(DOWN * 20),
@@ -110,6 +115,7 @@ class summarize(Scene):
             row_6.animate.shift(UP * (row_3.get_center() - row_6.get_center())).set_opacity(0),
             FadeIn(table_summarize.get_columns()[0]),
             FadeIn(table_summarize.get_columns()[1]),
+            Create(underline_2),
             run_time = 1.5
         )
 
